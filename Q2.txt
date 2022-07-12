@@ -1,0 +1,14 @@
+Upon assessing the data quality using a profiling library and basic python code i was able to identify the following issues:
+
+csv data - over 500 missing values in essential columns i.e email,gender.
+
+json-data 
+          - The customer_id is float datatype due to null values
+          - quantity column should be integer datatype
+
+xml_data - The barcode column has duplicates
+         -almost 2000 missing values in description,color,origin,material,size,price
+         -None of the data contained duplicate values
+
+
+

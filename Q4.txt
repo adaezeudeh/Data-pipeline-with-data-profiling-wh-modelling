@@ -1,0 +1,1 @@
+The datetime column in the fact_transactions table will be used to partition the data because it would help reduce the amount of data scanned by the engine per query.
